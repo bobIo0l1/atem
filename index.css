@@ -105,6 +105,9 @@ img.eimg{
 	margin-right:20px;
 	align-self: start;
 }
+article.c{
+	padding:0 16px;
+}
 article.era{
 	margin-top: 20px;
 	min-height:250px;

@@ -11,6 +11,16 @@
 </head>
 <body>
   <h1 id="titlename">Dilemma Escape Rooms</h1>
+  function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(39.555560, -104.998019),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
   <nav>
     <a class="navlink" href="../">Home</a>
     <a class="navlink" href="../escaperooms/">Escape Rooms</a>

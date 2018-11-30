@@ -109,6 +109,9 @@ img.eimg{
 	margin-right:20px;
 	align-self: start;
 }
+article{
+	font-size: 18px;
+}
 article.c{
 	padding:0 16px;
 }

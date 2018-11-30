@@ -48,6 +48,7 @@ a.navlink:hover {
 	padding: 14px;
 	background-color: black;
 	color: white;
+	border: 0;
 	border-radius:5px;
 	text-decoration: none;
 	margin-right:4px;

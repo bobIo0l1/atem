@@ -124,3 +124,6 @@ article.era{
 div.erdescription{
 	display:block;
 }
+div.erdescription h2{
+	margin-top: 0;
+}

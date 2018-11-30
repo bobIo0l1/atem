@@ -44,7 +44,7 @@ a.navlink:hover {
 	color: black;
 	background-color: white;
 }
-a.button{
+.button{
 	padding: 14px;
 	background-color: black;
 	color: white;
@@ -55,7 +55,7 @@ a.button{
 	font-size:22px;
 	transition: color 0.25s, background 0.25s;
 }
-a.button:hover{
+.button:hover{
 	background-color: #555;
 }
 #titlename {

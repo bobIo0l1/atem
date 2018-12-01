@@ -134,3 +134,9 @@ div.erdescription h2{
 input{
 	width:80%;
 }
+
+#grouptext {
+	text-align:center; 
+	margin: 15px;
+	padding: 10px;
+}

@@ -42,7 +42,7 @@ a.navlink{
 a.navlink:hover {
 	text-decoration: none;
 	color: black;
-	background-color: yellow;
+	background-color: white;
 }
 .button{
 	padding: 14px;

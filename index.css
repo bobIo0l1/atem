@@ -141,7 +141,7 @@ input{
 	padding: 10px;
 }
 
-input[type=text], select, textarea {
+input[type=text], input[type=date], input[type=number] select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;

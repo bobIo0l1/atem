@@ -178,3 +178,7 @@ input.threerow{
     background-color: #f2f2f2;
     padding: 20px;
 }
+
+h2 > a{
+    font-size: 1.5em;
+}

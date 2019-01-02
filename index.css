@@ -162,11 +162,11 @@ input[type=submit]:hover {
 }
 
 input.tworow{
-
+    width:50%;
 }
 
 input.threerow{
-
+    width:33%;
 }
 
 .container {

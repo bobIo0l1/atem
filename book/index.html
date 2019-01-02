@@ -39,10 +39,16 @@
     <h2>When? (format: MM/DD/YY)</h2>
     <input class="tworow" type="date" name="date" required>
     <h2>Name</h2>
-    First Name<br>
-    <input class="tworow" name="First name" type="text" required><br>
-    Last Name<br>
-    <input class="tworow" name="Last name" type="text" required><br>
+    <div class="flex-container">
+        <div class="label-input-container">
+            <label>First Name</label>
+            <input class="tworow" name="First name" type="text" required><br>
+        </div>
+        <div class="label-input-container">
+            <label>Last Name</label>
+            <input class="tworow" name="Last name" type="text" required>
+        </div>
+    </div>
     <h2>Age</h2>
     When is your birthday?<br>
     <input class="tworow" type="date" name="date" required>

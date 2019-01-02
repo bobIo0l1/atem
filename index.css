@@ -182,3 +182,7 @@ input.threerow{
 h2 > a{
     font-size: 1.5em;
 }
+
+article.form{
+    padding: 75px 0;
+}

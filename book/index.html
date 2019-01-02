@@ -27,7 +27,7 @@
       <h1 class="tc">Booking</h1>
     <article class="c">
         <h2>Escape Room:(Click <a href="https://bobio0l1.github.io/atem/escaperooms/">here</a> to view what the escape rooms are about)</h2>
-    <select>
+    <select required >
         <option value="Select">Select</option>
         <option value="Expedition: Catastrophe">Expedition: Catastrophe</option>	
         <option value="House of the Occult">House of the Occult</option>
@@ -47,12 +47,12 @@
     <input type="date" name="date" required>
     <h2>Contact Information</h2>
     E-Mail Address<br>
-    <input name="e-mail address" type="text"><br>
+    <input name="e-mail address" type="text" required><br>
     Phone Number (example: +1 (xxx)-xxx-xxxx)<br>
-    <input name="phone number" type="text"><br>
+    <input name="phone number" type="text" required><br>
     <h2>Payment Information</h2>
     Which type of card?<br>
-    <select>
+    <select required>
         <option value="select">select</option>
         <option value="debit">debit</option>
         <option value="credit">credit</option>
@@ -65,9 +65,9 @@
     <input name="CCV" type="number"><br>
     <h2>Disclaimers & Rules/Regulations</h2>
     I agree to all of the Dilemma Escape Rooms rules and regulations.<br>
-        <input type="checkbox">Yes</input><br>
+        <input type="checkbox" required>Yes</input><br>
     All information on this form is valid.<br>	
-    <input type="checkbox">Yes</input>
+    <input type="checkbox" required>Yes</input>
     <br>
     <br>
 <script>

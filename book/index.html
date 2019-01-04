@@ -22,12 +22,6 @@
         }    
     </style>
 <script src='https://www.google.com/recaptcha/api.js?render=6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_'></script>
-    <script>
-    var number = document.getElementById('number');
-    if (number > 30) {
-       system.out.println("A maximum of 30 people can be put in one booking.");
-    }
-    </script>
 </head>
 <body>
   <h1 id="titlename">Dilemma Escape Rooms</h1>
@@ -64,6 +58,12 @@
     <h2>How many?</h2>
     How many people will be coming to our escape room?<br>
     <input class="tworow" type="number" name="number" id="number"></input>
+    <script>
+    var number = document.getElementById('number');
+    if (number > 30) {
+       system.out.alert("A maximum of 30 people can be put in one booking.");
+    }
+    </script>
     <h2>Age</h2>
     When is the person who is booking's birthday?<br>
     <input class="tworow" type="date" name="date" required>

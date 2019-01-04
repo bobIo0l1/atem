@@ -57,13 +57,13 @@
     <input class="tworow" name="Last name" type="text" required>
     <h2>How many?</h2>
     How many people will be coming to our escape room?<br>
-    <input class="tworow" type="number" name="number" id="number"></input>
+    <input class="tworow" type="number" name="number" id="number" onchange="handleChange(this);"></input>
     <script>
-    var number = document.getElementById('number');
-    if (number > 30) {
-       window.alert("A maximum of 30 people can be put in one booking.");
-    }
-    </script>
+  function handleChange(input) {
+    if (input.value < 1) input.value = 1;
+    if (input.value > 30) input.value = 30;
+  }
+</script>
     <h2>Age</h2>
     When is the person who is booking's birthday?<br>
     <input class="tworow" type="date" name="date" required>

@@ -19,6 +19,10 @@
         .number{
             width: 350px;
             height: 50px;
+        } 
+        .age{
+            width: 50%;
+            height: 50px;
         }    
     </style>
 <script src='https://www.google.com/recaptcha/api.js?render=6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_'></script>
@@ -69,7 +73,7 @@
     if (input.value > 30) input.value = 30;
   }
 </script><br>
-        Children (12+): <select class="select">
+        Children (12+): <select class="age">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -81,7 +85,7 @@
         <option value="9">9</option>
         <option value="10">10</option>
         </select>
-        Adults (13 - 64): <select class="select">
+        Adults (13 - 64): <select class="age">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -93,7 +97,7 @@
         <option value="9">9</option>
         <option value="10">10</option>
         </select>
-        Seniors (Discounted with proof/government issued ID)(65+): <select select>
+        Seniors (Discounted with proof/government issued ID)(65+): <select class="age">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>

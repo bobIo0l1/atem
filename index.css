@@ -194,19 +194,3 @@ article.form{
 	font-size: 18px;
 	margin-top: 3px;
 }
-.gbutton{
-	
-	padding: 14px;
-	background-color: black;
-	color: white;
-	border: 0;
-	border-radius:5px;
-	text-decoration: none;
-	margin-right:4px;
-	margin-bottom: 10px;
-	font-size:22px;
-	transition: color 0.25s, background 0.25s;
-	text-align: center;
-}
-.gbutton:hover{
-	background-color: #555;

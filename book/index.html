@@ -61,16 +61,16 @@
     <h2>Name</h2>
     <label>First Name</label>
     <script>
-        var fname = document.getElementById('fname').value;
+        var fname = document.getElementById('require').value;
         if (fname = ""){
             print("Please fill out this field.")
         }    
     </script>
     <br>
-    <input class="tworow" name="First name" type="text" id="fname"><br>
+    <input class="tworow" name="First name" type="text" id="require"><br>
     <label>Last Name</label>
     <br>
-    <input class="tworow" name="Last name" type="text" required>
+    <input class="tworow" name="Last name" type="text" id="require">
     <h2>How many?</h2>
     How many people will be coming to our escape room?<br>
     <input class="tworow" type="number" name="number" id="number" onchange="handleChange(this);"></input>

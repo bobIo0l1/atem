@@ -9,22 +9,7 @@
   <link rel="icon" type="image/png" href="../logothingy.png">
   <script type="text/javascript" src="../index.js"></script>
     <script src="booking.js"></script>
-  <title>Dilemma Escape Rooms</title>
-<title>Book</title>
-    <style>
-        .select{
-            width: 50%;
-            height: 50px;
-        }
-        .number{
-            width: 350px;
-            height: 50px;
-        } 
-        .age{
-            width: 50%;
-            height: 50px;
-        }    
-    </style>
+  <title>Dilemma Escape Rooms - Book</title>
 <script src='https://www.google.com/recaptcha/api.js?render=6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_'></script>
 </head>
 <body>
@@ -54,7 +39,8 @@
     <label>Date</label>
     <input class="tworow" type="date" name="date" required>
     <label>Time</label>
-    <h2>Name</h2>
+    <table id="tabletimes"></table>
+    <h2>Participant Information</h2>
     <div class="flex-container">
         <div class="label-input-container tworow">
             <label>First Name</label>
@@ -65,15 +51,14 @@
             <input class="tworow" name="Last name" type="text" id="require">
         </div>
     </div>
-    <h2>How many?</h2>
-    How many people will be coming to our escape room?<br>
+<!--     <label>How many people will be coming to our escape room?</label>
     <input class="tworow" type="number" name="number" id="number" onchange="handleChange(this);"></input>
     <script>
   function handleChange(input) {
     if (input.value < 1) input.value = 1;
     if (input.value > 30) input.value = 30;
   }
-</script><br>
+</script><br> -->
         <p>*Please note that children below the age of 5 will not be admitted for safety reasons.</p>
         <div class="flex-container">
             <div class="label-input-container threerow">
@@ -89,15 +74,6 @@
                 <input type="number" min="1" max="10">
             </div>
         </div>
-    <h2>Date of Birth</h2>
-    <br>
-    <input class="tworow" type="date" name="date" required>
-    <script>
-        var age = document.getElementById.value;
-        if (age < 18){
-            alert("The person who is booking has to be 18 or above");
-        }    
-    </script>
     <h2>Contact Information</h2>
     <div class="flex-container">
         <div class="label-input-container tworow">
@@ -105,11 +81,18 @@
             <input name="e-mail address" type="text" required>
         </div>
         <div class="label-input-container tworow">
-            <label>Phone Number (example: +1 (xxx)-xxx-xxxx)</label>
+            <label>Phone Number</label>
             <input name="phone number" type="text" required>
         </div>
     </div>
     <h2>Payment Information</h2>
+    <input class="tworow" type="date" name="date" required>
+    <script>
+        var age = document.getElementById.value;
+        if (age < 18){
+            alert("You must be 18 or over to book a room.");
+        }    
+    </script>
     <label>Which type of card?</label>
     <select class="select" required>
         <option value="select">select</option>

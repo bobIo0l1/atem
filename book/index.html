@@ -23,10 +23,10 @@
     <a class="navlink" href="../resources/">Resources</a>
     <a class="navlink" href="https://bobio0l1.github.io/atem/resources/Feedback(1).html">Feedback</a>
   </nav>
-      <h1 class="tc">Booking</h1>
+      <h1 class="tc">Book Now</h1>
     <form action="action.php" method="post">
     <article class="c form">
-        <h2>Which escape room?</h2>
+        <label>Escape Room</label>
     <select class="select" required>
         <option value="Select">Select</option>
         <option value="Expedition: Catastrophe">Expedition: Catastrophe</option>	
@@ -35,7 +35,7 @@
         <option vale="Escaping Isolation">Escaping Isolation</option>
         <option vale="Illusory">Illusory</option>
     </select>
-    <h2>When?</h2>
+    <h2>Time and Date</h2>
     <label>Date</label>
     <input class="tworow" type="date" name="date" required>
     <label>Time</label>
@@ -74,7 +74,7 @@
                 <input type="number" min="1" max="10">
             </div>
         </div>
-    <h2>Contact Information</h2>
+    <h2>Contact/Payment Information</h2>
     <div class="flex-container">
         <div class="label-input-container tworow">
             <label>E-Mail Address</label>
@@ -85,7 +85,6 @@
             <input name="phone number" type="text" required>
         </div>
     </div>
-    <h2>Payment Information</h2>
     <input class="tworow" type="date" name="date" required>
     <script>
         var age = document.getElementById.value;
@@ -93,7 +92,7 @@
             alert("You must be 18 or over to book a room.");
         }    
     </script>
-    <label>Which type of card?</label>
+    <label>Card Type</label>
     <select class="select" required>
         <option value="select">select</option>
         <option value="debit">debit</option>

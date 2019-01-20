@@ -52,9 +52,7 @@
     </select>
     <h2>When?</h2>
     <label>Date</label>
-    <br>
     <input class="tworow" type="date" name="date" required>
-    <br>
     <label>Time</label>
     <h2>Name</h2>
     <div class="flex-container">
@@ -76,49 +74,21 @@
     if (input.value > 30) input.value = 30;
   }
 </script><br>
-        *Please note that children below the age of 5 will not be admitted for safety reasons.<br>
-        <br>
-        Children (5 - 12):<br> 
-        <select class="age">
-        <option value="select">select</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-        </select><br>
-        Adults (13 - 64):<br> <select class="age"><br>
-        <option value="select">select</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-        </select><br>
-        Seniors (65+): <br>
-        <select class="age">
-        <option value="select">select</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-        </select>
+        <p>*Please note that children below the age of 5 will not be admitted for safety reasons.</p>
+        <div class="flex-container">
+            <div class="label-input-container threerow">
+                <label>Children (5 - 12):</label>
+                <input type="number" min="1" max="10">
+            </div>
+            <div class="label-input-container threerow">
+                <label>Adults (13 - 64):</label>
+                <input type="number" min="1" max="10">
+            </div>
+            <div class="label-input-container threerow">
+                <label>Seniors (65+):</label>
+                <input type="number" min="1" max="10">
+            </div>
+        </div>
     <h2>Date of Birth</h2>
     <br>
     <input class="tworow" type="date" name="date" required>
@@ -134,21 +104,28 @@
     Phone Number (example: +1 (xxx)-xxx-xxxx)<br>
     <input class="tworow" name="phone number" type="text" required><br>
     <h2>Payment Information</h2>
-    Which type of card?<br>
+    <label>Which type of card?</label>
     <select class="select" required>
         <option value="select">select</option>
         <option value="debit">debit</option>
         <option value="credit">credit</option>
     </select>
-        <br>
-    Card Number<br>
-    <input class="tworow" name="credit card" type="text"><br>
-    Expiration Date (mm/yy)<br>
-    <input class="tworow" name="Expiration" type="text"><br>
-    Three Digit Security Code (CCV)<br>
-    <input class="tworow" name="CCV" type="number"><br>
+    <div class="flex-container">
+       <div class="label-input-container threerow">
+           <label>Card Number</label>
+           <input name="credit card" type="text">
+       </div>  
+       <div class="label-input-container threerow">
+           <label>Expiration Date (mm/yy)</label>
+           <input class="" name="Expiration" type="text">
+       </div> 
+       <div class="label-input-container threerow">
+           <label>Three Digit Security Code (CCV)</label>
+           <input class="threerow" name="CCV" type="number">
+       </div>
+    </div>
     <h2>Disclaimers & Terms/Conditions</h2>
-        I agree to all of the Dilemma Escape Rooms <a href="https://bobio0l1.github.io/atem/resources/terms-and-conditions.html">terms and conditions</a>.<br>
+        I agree to all of the Dilemma Escape Rooms <a href="/atem/resources/terms-and-conditions.html">terms and conditions</a>.<br>
         <input type="checkbox" required>Yes</input><br>
     All information on this form is valid.<br>	
     <input type="checkbox" required>Yes</input>

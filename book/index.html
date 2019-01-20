@@ -55,21 +55,18 @@
     <br>
     <input class="tworow" type="date" name="date" required>
     <br>
-    <label>Time</label
-    <br>
+    <label>Time</label>
     <h2>Name</h2>
-    <label>First Name</label>
-    <script>
-        var fname = $("#required").val();
-        if (fname = ""){
-            print("Please fill out this field.")
-        }    
-    </script>
-    <br>
-    <input class="tworow" name="First name" type="text" id="require"><br>
-    <label>Last Name</label>
-    <br>
-    <input class="tworow" name="Last name" type="text" id="require">
+    <div class="label-input-container">
+        <div class="label-input-container tworow">
+            <label>First Name</label>
+            <input class="tworow" name="First name" type="text" id="require"><br>
+        </div>
+        <div class="label-input-container tworow">
+            <label>Last Name</label>
+            <input class="tworow" name="Last name" type="text" id="require">
+        </div>
+    </div>
     <h2>How many?</h2>
     How many people will be coming to our escape room?<br>
     <input class="tworow" type="number" name="number" id="number" onchange="handleChange(this);"></input>

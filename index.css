@@ -143,8 +143,8 @@ input[type=text], input[type=date], input[type=number], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     font-size: 18px;
-    background-color: #ddd;
-    color: #aaa;
+    background-color: #fafafa;
+    color: #ddd;
 }
 
 input[type=submit] {

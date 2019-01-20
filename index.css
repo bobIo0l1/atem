@@ -241,7 +241,7 @@ article.form{
 label{
     display: block;
 }
-.label-input-container{
+.label-input-container:not(:last-child){
     flex-grow:1;
     margin-right:20px;
 }

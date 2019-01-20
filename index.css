@@ -264,6 +264,9 @@ article.form{
 .flex-container{
     display: flex;
 }
+label{
+    display: block;
+}
 .label-input-container{
     flex-grow:1;
     margin-right:20px;

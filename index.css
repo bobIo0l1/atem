@@ -41,7 +41,7 @@ a.navlink:hover {
 	color: black;
 	background-color: white;
 }
-.button{
+.button, input[type="submit"]{
 	padding: 14px;
 	background-color: black;
 	color: white;
@@ -53,7 +53,7 @@ a.navlink:hover {
 	font-size:22px;
 	transition: color 0.25s, background 0.25s;
 }
-.button:hover{
+.button:hover, input[type="submit"]:hover{
 	background-color: #555;
 }
 #titlename {
@@ -147,7 +147,7 @@ input[type=text], input[type=date], input[type=number], select, textarea {
     color: #111;
 }
 
-input[type=submit] {
+/* input[type=submit]{
     background-color: #000000;
     color: white;
     padding: 12px 20px;
@@ -158,7 +158,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #45a049;
-}
+} */
 
 input.tworow{
     width:50%;

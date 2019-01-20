@@ -143,6 +143,8 @@ input[type=text], input[type=date], input[type=number], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     font-size: 18px;
+    background-color: #fafafa;
+    color: #ddd;
 }
 
 input[type=submit] {
@@ -169,29 +171,6 @@ input.threerow{
 
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-}
-
-input[type=submit] {
-    background-color: #000000;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #555;
-}
 
 .container {
     border-radius: 5px;

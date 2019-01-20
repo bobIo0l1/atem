@@ -26,17 +26,19 @@
       <h1 class="tc">Book Now</h1>
     <form action="action.php" method="post">
     <article class="c form">
-        <h2>Escape Room</h2>
-    <select class="select tworow" required>
-        <option value="Select">Select</option>
-        <option value="Expedition: Catastrophe">Expedition: Catastrophe</option>	
-        <option value="House of the Occult">House of the Occult</option>
-        <option vale="In the Belly of the Bronze Beast">In the Belly of the Bronze Beast</option>
-        <option vale="Escaping Isolation">Escaping Isolation</option>
-        <option vale="Illusory">Illusory</option>
-    </select>
+        
     <h2>Date and Time</h2>
-    <input class="" type="date" name="date" required>
+    <div class="flex-container">
+        <select class="select label-input-container tworow" required>
+            <option value="Select">Select Escape Room</option>
+            <option value="Expedition: Catastrophe">Expedition: Catastrophe</option>	
+            <option value="House of the Occult">House of the Occult</option>
+            <option vale="In the Belly of the Bronze Beast">In the Belly of the Bronze Beast</option>
+            <option vale="Escaping Isolation">Escaping Isolation</option>
+            <option vale="Illusory">Illusory</option>
+        </select>
+        <input class="label-input-container tworow" type="date" name="date" required>
+    </div>
     <table id="tabletimes"></table>
     <h2>Participant Information</h2>
     <div class="flex-container">

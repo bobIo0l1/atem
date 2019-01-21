@@ -102,9 +102,7 @@ a.light:hover{
 }
 img.eimg{
 	width:350px;
-	flex-basis: 370px;
-	margin-right:20px;
-	align-self: start;
+	margin-right: 20px;
 }
 article{
 	font-size: 18px;

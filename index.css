@@ -116,13 +116,13 @@ article.era{
 	display:flex;
 	/*border-bottom: 1px solid #CCC;*/
 }
-div.erdescription{
+article.era{
 	display:flex;
 }
-div.erdescription h2{
+article.era h2{
 	margin-top: 0;
 }
-div.ertext{
+div.erdescription{
 	flex-grow: 1;
 }
 .cma{

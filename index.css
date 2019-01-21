@@ -170,7 +170,6 @@ input.threerow{
 /**New Input Code**/
 
 body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
 
 .container {
     border-radius: 5px;

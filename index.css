@@ -75,8 +75,8 @@ a.navlink:hover {
 }
 #hgcover{
 	background-color: rgba(20,20,20,0.4);
-	width: calc(100% - 0px);
-	height: calc(100% - 0px);
+	width: calc(100% - 100px);
+    	height: calc(100% - 250px);
 	padding-top: 250px;
 	padding-left: 100px;
 }

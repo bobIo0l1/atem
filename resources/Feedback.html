@@ -9,8 +9,8 @@
     <script src="../jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="../index.js"></script>
     <style>
-/* body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+ body {font-family: Arial, Helvetica, sans-serif;}
+ {box-sizing: border-box;}
 
 input[type=text], select, textarea {
     width: 100%;
@@ -79,9 +79,14 @@ input[type=submit]:hover {
 .rate > label:hover ~ input:checked ~ label {
     color: #c59b08;
 }
-.selectfb{
+.select{
     height: 50px;
-} */
+    width: 50%;
+}
+.email{
+    height: 50px;
+    width: 50%;
+}    
 </style>
 
 <title>Feedback</title>
@@ -115,7 +120,7 @@ input[type=submit]:hover {
     <input class="email" type="text" id="lname" name="lastname" placeholder="Phone Number">
 
       <label for="country">Which Escape Room did you go to?</label><br>    
-    <select class="selectfb" required>
+    <select class="select" required>
         <option value="Select">Select</option>
         <option value="Expedition: Catastrophe">Expedition: Catastrophe</option>	
         <option value="House of the Occult">House of the Occult</option>
@@ -141,6 +146,7 @@ input[type=submit]:hover {
     <input type="radio" class="star1" name="rate" value="1" />
     <label for="star1" title="text">1 star</label>
     <!-- Make it so the stars can be clicked and the input is saved. -->
+    <!--It already is. -->
   </div>
 <br>
 <br>

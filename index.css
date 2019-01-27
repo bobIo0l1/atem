@@ -3,7 +3,7 @@
 }
 ::selection{
 	background-color: yellow;
-	color: white;
+	color: #222;
 }
 html,body{
 	margin:0;

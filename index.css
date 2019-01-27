@@ -56,8 +56,14 @@ a.navlink:hover {
 	font-size:22px;
 	transition: color 0.25s, background 0.25s;
 }
+.button, input[type="submit"],select, option{
+	cursor: pointer;
+}
 .button:hover, input[type="submit"]:hover{
 	color: #222;
+}
+input[type="date"]{
+	cursor: text;
 }
 .button::before, input[type="submit"]::before{
 	content:"";

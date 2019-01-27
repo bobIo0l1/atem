@@ -80,19 +80,19 @@ a.navlink:hover {
 	transition: width 0.25s;
 }
 .button:hover::after, input[type="submit"]:hover::after{
-	width: 100%;
+	width: 100% !important;
 }
 .button.light, input[type="submit"].light{
-	color:black;
+	color:black !important;
 }
 .button.light:hover, input[type="submit"].light:hover{
-	color:yellow;
+	color:yellow !important;
 }
 .button.light::before, input[type="submit"].light::before{
-	background-color: white;
+	background-color: white !important;
 }
 .button.light::after, input[type="submit"].light::after{
-	background-color: black;
+	background-color: black !important;
 }
 #titlename {
 	text-align: center;

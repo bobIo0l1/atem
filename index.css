@@ -54,7 +54,7 @@ a.navlink:hover {
 	z-index: 1;
 	margin-bottom: 10px;
 	font-size:22px;
-	transition: color 0.25s, background 0.25s;
+	transition: color 0.5s, background 0.5s;
 }
 .button, input[type="submit"],select, option{
 	cursor: pointer;
@@ -85,7 +85,7 @@ input[type="date"]{
 	display: block;
 	height: 100%;
 	background-color: yellow;
-	transition: width 0.25s;
+	transition: width 0.5s;
 }
 .button:hover::after, input[type="submit"]:hover::after{
 	width: 100% !important;

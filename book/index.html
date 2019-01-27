@@ -11,6 +11,14 @@
     <script src="index.js"></script>
   <title>Dilemma Escape Rooms - Book</title>
 <script src='https://www.google.com/recaptcha/api.js?render=6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_'></script>
+    <script>
+grecaptcha.ready(function() {
+grecaptcha.execute('6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_', {action: 'action_name'})
+.then(function(token) {
+// Verify the token on the server.
+});
+});
+</script>
 </head>
 <body>
   <h1 id="titlename">Dilemma Escape Rooms</h1>
@@ -114,21 +122,13 @@
            <input class="" name="CCV" type="number">
        </div>
     </div>
-    <h2>Disclaimers & Terms/Conditions</h2>
+    <div>
+        <h2>Disclaimers & Terms/Conditions</h2>
+        <label>I agree to all of the Dilemma Escape Rooms<a href="/atem/resources/terms-and-conditions.html">terms and conditions</a>.
         <input type="checkbox" required>
-        <label>I agree to all of the Dilemma Escape Rooms <a href="/atem/resources/terms-and-conditions.html">terms and conditions</a>.
-        
-<script>
-grecaptcha.ready(function() {
-grecaptcha.execute('6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_', {action: 'action_name'})
-.then(function(token) {
-// Verify the token on the server.
-});
-});
-</script>
-
+    </div>
     <button class="button">Book Now</button>
     </article>
 </form>
-        </body>
+</body>
 </html>

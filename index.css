@@ -19,7 +19,7 @@ body {
 }
 nav{
 	text-align: center;
-	background-color: black;
+	background-color: #222;
 	position: sticky;
 	position: -webkit-sticky;
   top: 0;
@@ -38,7 +38,7 @@ a.navlink{
 }
 a.navlink:hover {
 	text-decoration: none;
-	color: black;
+	color: #222;
 	background-color: white;
 }
 .button, input[type="submit"]{
@@ -56,7 +56,7 @@ a.navlink:hover {
 	transition: color 0.25s, background 0.25s;
 }
 .button:hover, input[type="submit"]:hover{
-	color: black;
+	color: #222;
 }
 .button::before, input[type="submit"]::before{
 	content:"";
@@ -66,7 +66,7 @@ a.navlink:hover {
 	height: 100%;
 	z-index: -1;
 	position: absolute;
-	background-color: black;
+	background-color: #222;
 }
 .button::after, input[type="submit"]::after{
 	content:"";
@@ -84,7 +84,7 @@ a.navlink:hover {
 	width: 100% !important;
 }
 .button.light, input[type="submit"].light{
-	color:black !important;
+	color: #222 !important;
 }
 .button.light:hover, input[type="submit"].light:hover{
 	color:yellow !important;
@@ -93,7 +93,7 @@ a.navlink:hover {
 	background-color: white !important;
 }
 .button.light::after, input[type="submit"].light::after{
-	background-color: black !important;
+	background-color: #222 !important;
 }
 #titlename {
 	text-align: center;

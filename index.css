@@ -39,7 +39,7 @@ a.navlink{
 a.navlink:hover {
 	text-decoration: none;
 	color: #222;
-	background-color: white;
+	background-color: yellow;
 }
 .button, input[type="submit"]{
 	padding: 14px;

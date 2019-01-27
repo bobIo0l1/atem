@@ -50,6 +50,7 @@ a.navlink:hover {
 	position: relative;
 	display: inline-block;
 	margin-right:4px;
+	z-index: 1;
 	margin-bottom: 10px;
 	font-size:22px;
 	transition: color 0.25s, background 0.25s;
@@ -63,7 +64,7 @@ a.navlink:hover {
         left:0;
 	width: 100%;
 	height: 100%;
-	z-index: -2;
+	z-index: -1;
 	position: absolute;
 	background-color: black;
 }

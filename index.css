@@ -1,10 +1,6 @@
 * {
 	font-family: 'Merriweather Sans', sans-serif;
 }
-::selection{
-	background-color: yellow;
-	color: white;
-}
 html,body{
 	margin:0;
 	padding: 0;

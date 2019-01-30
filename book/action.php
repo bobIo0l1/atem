@@ -1,1 +1,32 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../index.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans" rel="stylesheet">
+  <script src="../jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="../index.js"></script>
+  <link rel="icon" type="image/png" href="../logothingy.png">
+  <title>Dilemma Escape Rooms</title>
+  <style>
+    .message {
+    	text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="titlename">Dilemma Escape Rooms</h1>
+  <nav>
+    <a class="navlink" href="../">Home</a>
+    <a class="navlink" href="../escaperooms/">Escape Rooms</a>
+    <a class="navlink" href="../book/">Book Now</a>
+    <a class="navlink" href="../groups/">Groups</a>
+    <a class="navlink" href="../location/">Location</a>
+    <a class="navlink" href="../resources/">Resources</a>
+    <a class="navlink" href="../resources/Feedback.html">Feedback</a>
+  </nav>
+  <h2 class="message">Thank you for choosing Dilemma! We sincerily hope you enjoy the escape room.</h2><br>
+  <h2 class="message">Make sure to give us <a href="Feedback.html">feedback</a>.</h2>
+    </body>
+</html>

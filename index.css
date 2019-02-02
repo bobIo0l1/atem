@@ -27,6 +27,11 @@ nav{
         top: 0;
 	z-index: 9999;
 }
+footer{
+	padding: 15px;
+	background-color: #222;
+	font-size: 16px;
+}
 a{
 	display: inline-block;
 }

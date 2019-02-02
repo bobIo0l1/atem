@@ -103,36 +103,55 @@ input[type=submit]:hover {
     <a class="navlink" href="../resources/Feedback.html">Feedback</a>
   </nav>
 <h1 class="tc">Feedback</h1>
-  <form class="cma form">
-    <div class="flex-container">
-        <div class="threerow label-input-container">
-            <label for="fname">Full  Name</label>
-            <input class="select" type="text" id="fname" name="firstname" placeholder="Your name...">
-        </div>
-        <div class="threerow label-input-container">
-            <label for="email">Email</label>
-            <input class="select" type="text" id="lname" name="lastname" placeholder="Email">
-        </div>
-        <div class="threerow label-input-container">
-            <label for="phone">Phone</label>
-            <input class="select" type="text" id="lname" name="lastname" placeholder="Phone Number">
-        </div>
-    </div>    
-    <label for="country">Which Escape Room did you go to?</label>  
-    <select class="" required>
-        <option value="Select">Select</option>
-        <option value="Expedition: Catastrophe">Expedition: Catastrophe</option>	
-        <option value="House of the Occult">House of the Occult</option>
-        <option vale="In the Belly of the Bronze Beast">In the Belly of the Bronze Beast</option>
-        <option vale="Escaping Isolation">Escaping Isolation</option>
-        <option vale="Illusory">Illusory</option>
-        <!-- Fix Color -->
-        <!-- The box is not big enough to actually show the text. Fix this. -->
-    </select>
-    <div class="flex-container">
-        <div class="label-input-container tworow">
-            <label for="country">How would you rate our website on a scale of 1-5?</label>
-            <div class="rate">
+  <form>
+      <article class="cma form">
+        <div class="flex-container">
+            <div class="threerow label-input-container">
+                <label for="fname">Full  Name</label>
+                <input class="select" type="text" id="fname" name="firstname" placeholder="Your name...">
+            </div>
+            <div class="threerow label-input-container">
+                <label for="email">Email</label>
+                <input class="select" type="text" id="lname" name="lastname" placeholder="Email">
+            </div>
+            <div class="threerow label-input-container">
+                <label for="phone">Phone</label>
+                <input class="select" type="text" id="lname" name="lastname" placeholder="Phone Number">
+            </div>
+        </div>    
+        <label for="country">Which Escape Room did you go to?</label>  
+        <select class="" required>
+            <option value="Select">Select</option>
+            <option value="Expedition: Catastrophe">Expedition: Catastrophe</option>	
+            <option value="House of the Occult">House of the Occult</option>
+            <option vale="In the Belly of the Bronze Beast">In the Belly of the Bronze Beast</option>
+            <option vale="Escaping Isolation">Escaping Isolation</option>
+            <option vale="Illusory">Illusory</option>
+            <!-- Fix Color -->
+            <!-- The box is not big enough to actually show the text. Fix this. -->
+        </select>
+        <div class="flex-container">
+            <div class="label-input-container tworow">
+                <label for="country">How would you rate our website on a scale of 1-5?</label>
+                <div class="rate">
+                    <input type="radio" class="star5" name="rate" value="5" />
+                    <label for="star5" title="5">5 stars</label>
+                    <input type="radio" class="star4" name="rate" value="4" />
+                    <label for="star4" title="4">4 stars</label>
+                    <input type="radio" class="star3" name="rate" value="3" />
+                    <label for="star3" title="3">3 stars</label>
+                    <input type="radio" class="star2" name="rate" value="2" />
+                    <label for="star2" title="2">2 stars</label>
+                    <input type="radio" class="star1" name="rate" value="1" />
+                    <label for="star1" title="1">1 star</label>
+                    <!-- Make it so the stars can be clicked and the input is saved. -->
+                <!-- Someone changed the code so it won't click, previously the stars could be clicked. -->
+                <!-- When stars are hovered over, it displays the title of "text". It would be nice to change this if possible. -->
+              </div>
+          </div>
+          <div class="label-input-container tworow">
+              <label for="country">How would you rate our escape room on a scale of 1-5?</label>
+              <div class="rate"> 
                 <input type="radio" class="star5" name="rate" value="5" />
                 <label for="star5" title="5">5 stars</label>
                 <input type="radio" class="star4" name="rate" value="4" />
@@ -143,34 +162,16 @@ input[type=submit]:hover {
                 <label for="star2" title="2">2 stars</label>
                 <input type="radio" class="star1" name="rate" value="1" />
                 <label for="star1" title="1">1 star</label>
-                <!-- Make it so the stars can be clicked and the input is saved. -->
-            <!-- Someone changed the code so it won't click, previously the stars could be clicked. -->
+            <!-- Make it so the stars can be clicked and the input is saved. -->
             <!-- When stars are hovered over, it displays the title of "text". It would be nice to change this if possible. -->
+              </div>
           </div>
       </div>
-      <div class="label-input-container tworow">
-          <label for="country">How would you rate our escape room on a scale of 1-5?</label>
-          <div class="rate"> 
-            <input type="radio" class="star5" name="rate" value="5" />
-            <label for="star5" title="5">5 stars</label>
-            <input type="radio" class="star4" name="rate" value="4" />
-            <label for="star4" title="4">4 stars</label>
-            <input type="radio" class="star3" name="rate" value="3" />
-            <label for="star3" title="3">3 stars</label>
-            <input type="radio" class="star2" name="rate" value="2" />
-            <label for="star2" title="2">2 stars</label>
-            <input type="radio" class="star1" name="rate" value="1" />
-            <label for="star1" title="1">1 star</label>
-        <!-- Make it so the stars can be clicked and the input is saved. -->
-        <!-- When stars are hovered over, it displays the title of "text". It would be nice to change this if possible. -->
-          </div>
-      </div>
-  </div>
-    <label for="subject">Comments</label>
-    <textarea class="textareacolor" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit" onclick='alert("Thank you for helping us improve! Our customers are #1 priority!")'>
-  </form>
+      <label for="subject">Comments</label>
+      <textarea class="textareacolor" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <input type="submit" value="Submit" onclick='alert("Thank you for helping us improve! Our customers are #1 priority!")'>
+   </article> 
+ </form>
 
     </body>
 </html>

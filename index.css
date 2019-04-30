@@ -148,7 +148,7 @@ input[type="date"]{
 	text-align:center;
 }
 img.eimg{
-	width:350px;
+	width:400px;
 	margin-right: 20px;
 }
 article{
@@ -158,14 +158,15 @@ article.c{
 	padding:0 16px;
 }
 article.era{
-	margin-top: 20px;
-	min-height:250px;
+	margin: 20px;
+	margin: 0 15px;
+	/* min-height:250px; */
 	display:flex;
+	/* align-items: center; */
 	/*border-bottom: 1px solid #CCC;*/
+	/* height: 0px; */
 }
-article.era{
-	display:flex;
-}
+
 article.era h2{
 	margin-top: 0;
 }
@@ -176,7 +177,7 @@ div.erdescription{
 	margin:0 auto;
 }
 #grouptext {
-	text-align:center; 
+	text-align:center;
 	margin: 15px;
 	padding: 10px;
 }
@@ -249,11 +250,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
     content: '★ ';
 }
 .rate > input:checked ~ label {
-    color: #ffc700;    
+    color: #ffc700;
 }
 .rate:not(:checked) > label:hover,
 .rate:not(:checked) > label:hover ~ label {
-    color: #deb217;  
+    color: #deb217;
 }
 .rate > input:checked + label:hover,
 .rate > input:checked + label:hover ~ label,
@@ -286,12 +287,13 @@ article.form{
 }
 label{
     display: block;
+		cursor: pointer;
 }
 .label-input-container{
     flex-grow:1;
 }
 .label-input-container:not(:last-child){
-    margin-right:20px; 
+    margin-right:20px;
 }
 
 .difntime{

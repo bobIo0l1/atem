@@ -158,8 +158,8 @@ article.c{
 	padding:0 16px;
 }
 article.era{
-	margin: 20px;
-	margin: 0 15px;
+/* 	margin: 20px; */
+	margin: 20px 15px;
 	/* min-height:250px; */
 	display:flex;
 	/* align-items: center; */

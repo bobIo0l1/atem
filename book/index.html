@@ -61,12 +61,12 @@ grecaptcha.execute('6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_', {action: 'action_
             <input class="" name="Last name" type="text" id="require">
         </div>
     </div>
-     <label>How many people will be coming to our escape room?</label>
+     <label>How many people will be coming to our escape room? (You can only have a max of 24 people per booking, peope will be seperated into two different rooms.)</label>
     <input class="tworow" type="number" name="number" id="number" onchange="handleChange(this);"></input>
     <script>
   function handleChange(input) {
     if (input.value < 1) input.value = 1;
-    if (input.value > 30) input.value = 30;
+    if (input.value > 24) input.value = 24;
   }
 </script><br>
     <div class="flex-container">

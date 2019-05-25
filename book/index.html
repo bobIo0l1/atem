@@ -38,8 +38,14 @@ grecaptcha.execute('6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_', {action: 'action_
         
     <h2>Date and Time</h2>
         <!-- Add what time they are booking the escape room for -->
+    <script>
+        var escapeRoom = document.getElementById("test")
+        if escapeRoom == "Select"{
+            alert("Please select an escape room.")
+        }    
+    </script>
     <div class="flex-container">
-        <select class="select label-input-container tworow" required>
+        <select class="select label-input-container tworow" id="test" required>
             <option value="Select">Select Escape Room</option>
             <option value="Expedition: Catastrophe">Expedition: Catastrophe</option>	
             <option value="House of the Occult">House of the Occult</option>
@@ -54,11 +60,11 @@ grecaptcha.execute('6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_', {action: 'action_
     <div class="flex-container">
         <div class="label-input-container tworow">
             <label>First Name</label>
-            <input class="" name="First name" type="text" id="require"><br>
+            <input class="" name="First name" type="text" id="require" required><br>
         </div>
         <div class="label-input-container tworow">
             <label>Last Name</label>
-            <input class="" name="Last name" type="text" id="require">
+            <input class="" name="Last name" type="text" id="require" required>
         </div>
     </div>
      <label>How many people will be coming to our escape room? (You can only have a max of 24 people per booking, peope will be seperated into two different rooms.)</label>

@@ -310,4 +310,10 @@ label{
 		padding: 5px;
 		width: 100%;
 	}
+	.flex-container{
+		display: block;
+	}
+	#titlename{
+		font-size: 40px;
+	}
 }

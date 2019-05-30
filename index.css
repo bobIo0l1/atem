@@ -308,6 +308,28 @@ label{
 	color: white;
 	font-size: 40px;
 }
+.escape-room-time:first-child{
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.escape-room-time:last-child{
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom: 1px solid #ccc;
+}
+.escape-room-time{
+	background-color: #fcfcfc;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	cursor: pointer;
+	transition: background 0.25s;
+}
+.escape-room-time:hover{
+	background-color: #fafafa;
+}
+.escape-room-time:active{
+	background-color: #f9f9f9;
+}
 @media screen and (max-width: 800px) {
 	.tworow, .threerow{
 		display: block;

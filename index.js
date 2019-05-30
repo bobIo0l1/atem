@@ -5,6 +5,7 @@ $(function(){
       $("nav").show();
     }else{
       $("nav").hide();
+      $("nav").css("top",$("#titlename").outerHeight());
     }
   }).trigger("resize"); 
   $("#menu-button").click(function(){

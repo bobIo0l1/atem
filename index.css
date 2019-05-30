@@ -322,6 +322,7 @@ label{
 	border: 1px solid #ccc;
 	border-bottom: 0;
 	cursor: pointer;
+	padding: 16px;
 	transition: background 0.25s;
 }
 .escape-room-time:hover{
@@ -333,7 +334,6 @@ label{
 .escape-room-time.active{
 	color: #222 !important;
 	background-color: yellow !important;
-	padding: 16px;
 }
 @media screen and (max-width: 800px) {
 	.tworow, .threerow{

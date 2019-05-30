@@ -331,7 +331,7 @@ label{
 		display: inline;
 	}
 	nav{
-		position: static;
+		position: fixed;
 	}
 	.era{
 		display: block;

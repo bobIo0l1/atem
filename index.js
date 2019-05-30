@@ -9,7 +9,7 @@ $(function(){
   }).trigger("resize"); 
   $("#menu-button").click(function(){
     if($(window).width() <= 800){
-      $("nav").first().toggle();
+      $("nav").first().toggle("slow");
     }
   });
 });

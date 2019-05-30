@@ -306,7 +306,7 @@ label{
 	background: transparent; 
 	border: 0;
 	color: white;
-	font-size: 60px;
+	font-size: 40px;
 }
 @media screen and (max-width: 800px) {
 	.tworow, .threerow{

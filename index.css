@@ -325,10 +325,10 @@ label{
 	transition: background 0.25s;
 }
 .escape-room-time:hover{
-	background-color: #fafafa;
+	background-color: #f9f9f9;
 }
 .escape-room-time:active{
-	background-color: #f9f9f9;
+	background-color: #f6f6f6;
 }
 .escape-room-time.active{
 	color: #222 !important;

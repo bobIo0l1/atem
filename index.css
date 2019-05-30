@@ -305,6 +305,8 @@ label{
 	display: none;
 	background: transparent; 
 	border: 0;
+	color: white;
+	font-size: 60px;
 }
 @media screen and (max-width: 800px) {
 	.tworow, .threerow{
@@ -321,6 +323,8 @@ label{
 	#titlename{
 		font-size: 40px;
 		position: sticky;
+		background-color: #222;
+		color: white;
 	}
 	#menu-button{
 		display: inline;

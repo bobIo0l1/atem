@@ -16,4 +16,8 @@ $(function(){
       $("#table-times").append(`<div class="escape-room-time">`+hourDecimal.toString().slice(0,hourDecimal.toString().indexOf(".")).concat(":",minutes)+`</div>`);
     }
   });
+  $(".escape-room-time").click(function(){
+    $(".escape-room-time.active").removeClass("active");
+    $(this).addClass("active");
+  });
 });

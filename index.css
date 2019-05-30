@@ -333,6 +333,7 @@ label{
 .escape-room-time.active{
 	color: #222 !important;
 	background-color: yellow !important;
+	padding: 16px;
 }
 @media screen and (max-width: 800px) {
 	.tworow, .threerow{

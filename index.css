@@ -301,3 +301,13 @@ label{
 	font-size: 18px;
 	margin-top: 3px;
 }
+@media screen and (max-width: 800px) {
+	.tworow, .threerow{
+		display: block;
+		width: 100%;
+	}
+	a.navlink{
+		padding: 5px;
+		width: 100%;
+	}
+}

@@ -3,6 +3,7 @@ $(function(){
   $(window).resize(function(){
     if($(window).width() >= 800){
       $("nav").show();
+      $("nav").css("top","0px");
     }else{
       $("nav").hide();
       $("nav").css("top",$("#titlename").outerHeight());

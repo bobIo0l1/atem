@@ -325,11 +325,16 @@ label{
 		position: sticky;
 		background-color: #222;
 		color: white;
+		top:0;
 	}
 	#menu-button{
 		display: inline;
 	}
 	nav{
 		position: static;
+	}
+	.era{
+		display: block;
+		height: auto;
 	}
 }

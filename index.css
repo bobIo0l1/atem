@@ -333,9 +333,14 @@ label{
 	nav{
 		position: fixed;
 	}
-	.era{
+	article.era{
 		display: block;
 		height: auto;
+	}
+	img.eimg{
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
 	}
 	#hg{
 	    background-position: 50% 50%;

@@ -301,6 +301,11 @@ label{
 	font-size: 18px;
 	margin-top: 3px;
 }
+#menu-button{
+	display: none;
+	background: transparent; 
+	border: 0;
+}
 @media screen and (max-width: 800px) {
 	.tworow, .threerow{
 		display: block;
@@ -315,5 +320,8 @@ label{
 	}
 	#titlename{
 		font-size: 40px;
+	}
+	#menu-button{
+		display: inline;
 	}
 }

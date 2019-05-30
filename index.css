@@ -320,8 +320,12 @@ label{
 	}
 	#titlename{
 		font-size: 40px;
+		position: sticky;
 	}
 	#menu-button{
 		display: inline;
+	}
+	nav{
+		position: static;
 	}
 }

@@ -337,4 +337,13 @@ label{
 		display: block;
 		height: auto;
 	}
+	#hg{
+	    background-position: 50% 50%;
+	    background-size: 150% 100%;
+	    height: auto;
+	}
+	#hgcover{
+            width: 100%;
+	    padding: 15px;
+	}
 }

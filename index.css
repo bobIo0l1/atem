@@ -322,7 +322,7 @@ label{
 	border: 1px solid #ccc;
 	border-bottom: 0;
 	cursor: pointer;
-	padding: 16px;
+	padding: 10px;
 	transition: background 0.25s;
 }
 .escape-room-time:hover{
